@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [harisuite]">
+  <test thread-count="5" name="userdata(failed)">
+    <parameter name="empname" value="Neeraja Demo"/>
+    <parameter name="roll" value="ESS"/>
+    <parameter name="userpwd" value="Qedge123!@#"/>
+    <parameter name="username" value="hareekrisaa"/>
+    <classes>
+      <class name="orangehrmtestcases.userrregis">
+        <methods>
+          <include name="closeApp"/>
+          <include name="login"/>
+          <include name="reguser" invocation-numbers="0"/>
+          <include name="logout"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- orangehrmtestcases.userrregis -->
+    </classes>
+  </test> <!-- userdata(failed) -->
+</suite> <!-- Failed suite [harisuite] -->

@@ -1,0 +1,51 @@
+
+<suite name = "harisuite">
+	
+	<test name = "adminlogintest">
+		<parameter name ="adminuid" value ="Admin"></parameter>
+		<parameter name ="adminpwd" value ="Qedge123!@#"></parameter>
+		<classes>
+			<class name= "orangehrmtestcases.adminlogin">
+				
+			</class>	
+		</classes>	
+	</test>
+	
+	
+	<test name = "invaliddata">
+		<parameter name ="adminuid" value ="adm"></parameter>
+		<parameter name ="adminpwd" value ="QEdge12@#"></parameter>
+		<classes>
+			<class name= "orangehrmtestcases.invaliddata">
+				
+			</class>	
+		</classes>	
+	</test>
+	
+	
+	
+	
+	<test name = "empreeeg">
+		<parameter name ="empname" value ="Richard"></parameter>
+		<parameter name ="username" value ="Johni"></parameter>
+		<classes>
+			<class name= "orangehrmtestcases.empreg">
+				
+			</class>	
+		</classes>	
+	</test>
+
+	<test name = "userdata">
+		
+		<parameter name ="roll" value ="ESS"></parameter>
+		<parameter name ="empname" value ="Neeraja Demo"></parameter>
+		<parameter name ="username" value ="hareekrisaa"></parameter>
+		<parameter name ="userpwd" value ="Qedge123!@#"></parameter>
+		<classes>
+			<class name="orangehrmtestcases.userrregis">
+			</class>
+		</classes>	
+	</test>
+	
+		</suite>
+	
